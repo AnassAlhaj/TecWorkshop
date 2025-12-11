@@ -339,6 +339,36 @@ footer{
 
 /* media queries */
 
+/* for mobile screens */
+@media (max-width:480px) {
+
+    #hero {
+        padding: 260px 0 60px 0;
+        height: 120vh;
+    }
+
+    .section-title{
+        font-size: 2rem;
+    }
+
+    .hero-content h2{
+        font-size: 1.8rem;
+    }
+
+    /* scheduel */
+    .day h3{
+        font-size: 1.5rem;
+    }
+
+    .scheduel-table{
+        font-size: 0.8rem;
+    }
+
+    .scheduel-table th, .scheduel-table td{
+        padding: 6px;
+    }
+}
+
 /* for tablets  */
 @media (max-width:768px){
     /* header */
@@ -402,37 +432,5 @@ footer{
         align-items: center;
         text-align: center;
     }
-}
-
-/* for mobile screens */
-@media (max-width:480px) {
-
-    #hero {
-        padding: 140px 0 40px 0;
-        height: auto;
-        align-items: flex-start;
-    }
-
-    .section-title{
-        font-size: 2rem;
-    }
-
-    .hero-content h2{
-        font-size: 1.8rem;
-    }
-
-    /* scheduel */
-    .day h3{
-        font-size: 1.5rem;
-    }
-
-    .scheduel-table{
-        font-size: 0.8rem;
-    }
-
-    .scheduel-table th, .scheduel-table td{
-        padding: 6px;
-    }
-
 }
 
