@@ -363,7 +363,7 @@ footer{
 
     /* hero */
     #hero{
-        padding-top: 300px;
+        padding-top: 250px;
         height: 130vh;
     }
     .hero-content h2{
@@ -427,4 +427,5 @@ footer{
     .scheduel-table th, .scheduel-table td{
         padding: 6px;
     }
+
 }
