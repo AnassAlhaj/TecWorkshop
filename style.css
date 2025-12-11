@@ -342,10 +342,6 @@ footer{
 /* for mobile screens */
 @media (max-width:480px) {
 
-    #hero {
-        height: 110vh;
-    }
-
     .section-title{
         font-size: 2rem;
     }
@@ -392,8 +388,8 @@ footer{
 
     /* hero */
     #hero{
-        padding: 250px 0 50px 0;
-        height: 130vh;
+        padding: 250px 0 80px 0;
+        height: 120vh;
     }
 
     .hero-content h2{
