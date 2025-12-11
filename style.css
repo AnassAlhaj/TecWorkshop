@@ -407,6 +407,12 @@ footer{
 /* for mobile screens */
 @media (max-width:480px) {
 
+    #hero {
+        padding: 140px 0 40px 0;
+        height: auto;
+        align-items: flex-start;
+    }
+
     .section-title{
         font-size: 2rem;
     }
@@ -429,3 +435,4 @@ footer{
     }
 
 }
+
