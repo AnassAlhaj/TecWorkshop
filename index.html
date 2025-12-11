@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech Workshop 2025</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <h1>Tech<span>Workshop</span></h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#scheduel">Sheduel</a></li>
+                        <li><a href="#scheduel">Speakers</a></li>
+                        <li><a href="#register">Register</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Join Us For Thr Ultimate TechWorkshop</h2>
+                    <p>Learn, Connect, and Innovate with Industry Expert</p>
+                    <p class="event-date">July 20-23, 2025, Cairo, Egypt</p>
+                    <a href="#register" class="btn">Register Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About the Event</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Join us for three days of workshops, talks, and networking with the best minds in technology. Whether you're a beginner or an experienced developer, there's something for everyone.</p>
+                        <p>Our workshops cover the latest trends in web development, artificial intelligence, cybersecurity, and more. You'll leave with new skills, connections, and inspiration.</p>
+                    </div>
+
+                    <div class="event-details">
+                        <div class="detail">
+                            <h3>Date & Time</h3>
+                            <p>June 15-17, 2025</p>
+                            <p>9:00 AM-5:00PM</p>
+
+                        </div>
+                        <div class="detail">
+                            <h3>Location</h3>
+                            <p>Tech Conference Center</p>
+                            <p>123 Innovation Street San Francisco, CA 94107</p>
+
+                        </div>
+                        <div class="detail">
+                            <h3>Ticket Price</h3>
+                            <p>Early Bird: $299</p>
+                            <p>Regular: $399</p>
+                            <p>VIP: $599</p>
+
+                        </div>
+
+                    </div>
+                
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="scheduel">
+            <div class="container">
+                <h2 class="section-title">Event Schedule</h2>
+                <div class="day">
+                    <h3>Day 1: June 15</h3>
+                    <table class="scheduel-table">
+                        <tr>
+                            <th>Time</th>
+                            <th>Session</th>
+                            <th>Speaker</th>
+                            <th>Room</th>
+                        </tr>
+                        <tr>
+                            <td>9:00-10:00</td>
+                            <td>Registration & Breakfast</td>
+                            <td>-</td>
+                            <td>Main Hall</td>
+                        </tr>
+                        <tr>
+                            <td>10:00-11:30</td>
+                            <td>Keynote: The Future of Technology</td>
+                            <td>Jane Smith</td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                            <td>11:45-12:45</td>
+                            <td>Workshop: Intro to HTML & CSS</td>
+                            <td>John Doe</td>
+                            <td>Room A</td>    
+                        </tr>
+                        <tr>
+                            <td>12:45-2:00</td>
+                            <td>Lunch Break</td>
+                            <td>-</td>
+                            <td>Cafeteria</td></tr>
+                        <tr>
+                            <td>12:45-2:00</td>
+                            <td>Panel: Women in Tech</td>
+                            <td>Various</td>
+                            <td>Auditorium</td>
+                        </tr>
+                        <tr>
+                            <td>3:45-5:00</td>
+                            <td>Workshop: JavaScript Fundamentals</td>
+                            <td>Mike Johnson</td>
+                            <td>Room B</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="register">
+            <div class="container">
+                <h2 class="section-title">Register Now</h2>
+                <div class="form-container">
+                    <form id="registeration-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Full Name" autofocus autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Email"  autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Organization/Company">
+                        </div>
+                        <div class="form-group">
+                            <label for="ticket">Ticket Type</label>
+                            <select name="ticket" id="ticket" required>
+                                <option value="">Select a ticket type</option>
+                                <option value="early">Early Bird($299)</option>
+                                <option value="regular">Regular($399)</option>
+                                <option value="vip">VIP($599)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Workshops (Select all that interest you)</label>
+                            <div class="checkbox-group">
+                                <input type="checkbox" name="html-css" id="workshop1" value="html-css">
+                                <label for="workshop1">Intro to HTML & CSS</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" name="js" id="workshop2" value="js">
+                                <label for="workshop2">JavaScript Fundamentals</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" name="react" id="workshop4" value="react">
+                                <label for="workshop3">Bullding Apps with React</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" name="python" id="workshop4" value="python">
+                                <label for="workshop4">Python For Beginners</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="comments">Additional Comments</label>
+                            <textarea name="comments" id="comments" rows="4" placeholder="Type your comments..."></textarea>
+                        </div>
+                        <button type="submit" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+            
+        </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Tech<span>Workshop</span></h3>
+                    <p>Learn, Connect, Innovate</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#scheduel">Schedule</a></li>
+                        <li><a href="#register">Register</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>Email: info@techworkshop.com</p>
+                    <p>Phone: (123)456-789</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">FB</a>
+                        <a href="#" class="social-icon">TW</a>
+                        <a href="#" class="social-icon">IG</a>
+                        <a href="#" class="social-icon">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&#169; 2025 TechWorkshop.All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    </body>
+
+</html>
