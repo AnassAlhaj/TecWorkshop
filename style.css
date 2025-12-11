@@ -343,8 +343,7 @@ footer{
 @media (max-width:480px) {
 
     #hero {
-        padding: 260px 0 60px 0;
-        height: 120vh;
+        height: 110vh;
     }
 
     .section-title{
@@ -396,18 +395,19 @@ footer{
         padding: 250px 0 50px 0;
         height: 130vh;
     }
+
     .hero-content h2{
-    font-size: 2rem;
+        font-size: 2rem;
     }
 
     .hero-content p{
-    font-size: 1.2rem;
+        font-size: 1.2rem;
     }
 
     /* about */
     .about-text {
-    margin-right: 0;
-    margin-bottom: 30px;
+        margin-right: 0;
+        margin-bottom: 30px;
     }
 
     /* scheduel */
@@ -433,6 +433,4 @@ footer{
         text-align: center;
     }
 }
-
-
 
